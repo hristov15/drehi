@@ -1,5 +1,6 @@
 body {
 	background-color: #AFEEEE;
+	padding-top: 200px;
 } 
 
 h1 {
@@ -47,4 +48,10 @@ th, td {
 
 a[href="https://uk.embassy.gov.au/lhlh/visas_and_migration.html"]{
 	color:OrangeRed;
+s}
+nav {
+  position: absolute;
+}
+.modal .overlay ~ * > *, .card > * {
+	width: 100%;
 }
